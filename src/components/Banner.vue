@@ -34,11 +34,16 @@
         ></div>
       </div>
     </div>
+
   </div>
 </template>
 
 <script>
+
 export default {
+  components: {
+ 
+  },
   data() {
     return {
       currentSlide: 1,

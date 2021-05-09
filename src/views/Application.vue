@@ -1,6 +1,8 @@
 <template>
   <div class="mobile">
-    <div class="mobile-banner"></div>
+    <div class="mobile-banner">
+      <CustomerService></CustomerService>
+    </div>
     <div class="info">
       <div class="mid">
         <img src="../assets/application/info.png" alt="" width="100%" />
@@ -13,14 +15,14 @@
         <div class="left-qr">
           <div style="margin-top: 30px; height: 300px; background: red">
             <img
-              src="../assets/application/qr2.jpg"
+              src="../../public/kaiboqr.png"
               alt=""
               style="width: 300px; height: 300px"
               draggable="false"
               v-if="AndroidImg"
             />
             <img
-              src="../assets/application/qr2.jpg"
+              src="../../public/kaiboqr.png"
               alt=""
               style="width: 300px; height: 300px"
               draggable="false"
@@ -97,9 +99,11 @@
 
 <script>
 import Footer from '../components/Footer'
+import CustomerService from "../components/CustomerService";
 export default {
     components: {
         Footer,
+        CustomerService
     },
   data() {
     return {

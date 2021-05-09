@@ -13,15 +13,15 @@
       <div class="footer-des">
         <span class="footer-text">关于我们</span>
         <span class="line"></span>
-        <span class="footer-text">如何存款</span>
+        <span class="footer-text">联系我们</span>
         <span class="line"></span>
-        <span class="footer-text">如何取款</span>
+        <span class="footer-text">合作伙伴</span>
+        <span class="line"></span>
+        <span class="footer-text">存款帮助</span>
+        <span class="line"></span>
+        <span class="footer-text">取款帮助</span>
         <span class="line"></span>
         <span class="footer-text">常见问题</span>
-        <span class="line"></span>
-        <span class="footer-text">隐私声明</span>
-        <span class="line"></span>
-        <span class="footer-text">隐私声明</span>
       </div>
       <div class="footer-center">
         <p>COPYRIGHT © 2020 凯博娱乐. All RIGHTS RESERVED.</p>

@@ -1,6 +1,8 @@
 <template>
   <div class="deposit">
-    <div class="ba"></div>
+    <div class="ba">
+      <CustomerService></CustomerService>
+    </div>
     <div class="info-img">
       <div class="sub-info"></div>
     </div>
@@ -115,8 +117,9 @@
 
 <script>
 import Footer from '../components/Footer.vue';
+import CustomerService from "../components/CustomerService";
 export default {
-  components: { Footer },
+  components: { Footer,CustomerService },
   data() {
     return {
       payment: {
