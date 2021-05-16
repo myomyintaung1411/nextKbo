@@ -262,7 +262,7 @@ export default {
           var body = res.data;
           //console.log(body);
           var msg = JSON.parse(AES.decrypt(body, en));
-         // console.log(msg, "response msg of created");
+          // console.log(msg, "response msg of created");
           if (msg.JsonData.code == 200) {
             //saving first time creted agentid and name to use in register section
             this.qq = msg.JsonData.QQ;
@@ -319,27 +319,21 @@ export default {
       if (this.$store.state.login == true) {
         let loginId = this.$Global.myLoginInfo.loginId;
         let loginName = this.$Global.myLoginInfo.loginName;
-        // window.open(
-        //   `http://kbchat.hn885.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=2&groupid=0&special=2`
-        // );
 
+        // https://www.shopad9999.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50
         window.open(
-          `https://www.maiijf888.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=40&groupid=0&special=50`
+          `https://www.shopad9999.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=40&groupid=0&special=50`
         );
       } else {
-        // window.open(
-        //   `http://kbchat.hn885.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=2&groupid=0&special=2`
-        // );
-
         window.open(
-          `https://www.maiijf888.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50`
+          `https://www.shopad9999.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50`
         );
       }
     },
   },
   created() {
-      var url = window.location.href;
-   // var url = "http://21019.hn232.com";
+    var url = window.location.href;
+    // var url = "http://21019.hn232.com";
     var s = url;
     //  console.log("ss", s);
     var a = s.split(".")[0];

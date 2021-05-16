@@ -191,7 +191,7 @@
         赶紧扫描下载吧
       </p>
       <div class="qr_code">
-        <img src="../../../public/kaiboqr.png" alt=""  draggable="false"/>
+        <img src="../../../public/kaiboqr.png" alt="" draggable="false" />
         <!-- <img src="../assets/images/qr1.png" alt=""> -->
       </div>
       <div class="down_text">
@@ -313,7 +313,7 @@ export default {
   },
   created() {
     let s = window.location.href;
-   // var s = "http://21019.hn232.com";
+    // var s = "http://21019.hn232.com";
     let h = s.split(".")[0];
     //  console.log(h);
     let a = h.split("//")[1];
@@ -451,7 +451,7 @@ export default {
         //   `http://kbchat.hn885.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=2&groupid=0&special=2`
         // );
         window.open(
-          `https://www.maiijf888.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=40&groupid=0&special=50`
+          `https://www.shopad9999.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=40&groupid=0&special=50`
         );
       } else {
         // window.open(
@@ -459,7 +459,7 @@ export default {
         //   "_blank"
         // );
         window.open(
-          `https://www.maiijf888.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50`
+          `https://www.shopad9999.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50`
         );
       }
     },

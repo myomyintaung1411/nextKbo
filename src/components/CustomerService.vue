@@ -75,14 +75,14 @@ export default {
         //   `http://kbchat.hn885.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=2&groupid=0&special=2`
         // );
         window.open(
-          `https://www.maiijf888.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=40&groupid=0&special=50`
+          `https://www.shopad9999.com/index/index/home?visiter_id=${loginId}&visiter_name=${loginName}&avatar=&business_id=40&groupid=0&special=50`
         );
       } else {
         // window.open(
         //   `http://kbchat.hn885.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=2&groupid=0&special=2`
         // );
         window.open(
-          `https://www.maiijf888.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50`
+          `https://www.shopad9999.com/index/index/home?visiter_id=&visiter_name=&avatar=&business_id=40&groupid=0&special=50`
         );
       }
     },
